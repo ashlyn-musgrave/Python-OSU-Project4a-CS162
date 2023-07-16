@@ -1,3 +1,9 @@
+# Author: Ashlyn Musgrave
+# GitHub Username: ashlyn-musgrave
+# Date: 7/16/2023
+# Description: This program modifies the binary search from the Exploration so that it raises a
+#TargetNotFound exception when the target value is not in the list instead of a -1
+
 class TargetNotFound(Exception):
     pass
 
