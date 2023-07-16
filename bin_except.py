@@ -7,7 +7,7 @@
 class TargetNotFound(Exception):
     pass
 
-def binary_search(a_list, target):
+def bin_except(a_list, target):
       """Searches a_list for an occurrence of target
       If found, returns the index of its position in the list
       If not found, returns -1, indicating the target value isn't in the list"""
